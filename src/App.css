@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.mapboxgl-canvas {
+  position: static !important;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
